@@ -20,6 +20,9 @@
 		B599E6041C8120AC0068BA11 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B599E6031C8120AC0068BA11 /* ExtensionDelegate.swift */; };
 		B599E6061C8120AC0068BA11 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B599E6051C8120AC0068BA11 /* ComplicationController.swift */; };
 		B599E6081C8120AC0068BA11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B599E6071C8120AC0068BA11 /* Assets.xcassets */; };
+		B599E6181C81210C0068BA11 /* Ending.swift in Sources */ = {isa = PBXBuildFile; fileRef = B599E6171C81210C0068BA11 /* Ending.swift */; };
+		B599E61A1C812B880068BA11 /* WorldLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B599E6191C812B880068BA11 /* WorldLine.swift */; };
+		B599E61C1C8137D60068BA11 /* WKInterfaceImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B599E61B1C8137D60068BA11 /* WKInterfaceImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +85,9 @@
 		B599E6051C8120AC0068BA11 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		B599E6071C8120AC0068BA11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B599E6091C8120AC0068BA11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B599E6171C81210C0068BA11 /* Ending.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ending.swift; sourceTree = "<group>"; };
+		B599E6191C812B880068BA11 /* WorldLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldLine.swift; sourceTree = "<group>"; };
+		B599E61B1C8137D60068BA11 /* WKInterfaceImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKInterfaceImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,9 @@
 				B599E6051C8120AC0068BA11 /* ComplicationController.swift */,
 				B599E6071C8120AC0068BA11 /* Assets.xcassets */,
 				B599E6091C8120AC0068BA11 /* Info.plist */,
+				B599E6171C81210C0068BA11 /* Ending.swift */,
+				B599E6191C812B880068BA11 /* WorldLine.swift */,
+				B599E61B1C8137D60068BA11 /* WKInterfaceImageExtension.swift */,
 			);
 			path = "SGComplicationSample WatchKit Extension";
 			sourceTree = "<group>";
@@ -298,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B599E6181C81210C0068BA11 /* Ending.swift in Sources */,
+				B599E61C1C8137D60068BA11 /* WKInterfaceImageExtension.swift in Sources */,
 				B599E6041C8120AC0068BA11 /* ExtensionDelegate.swift in Sources */,
 				B599E6021C8120AC0068BA11 /* InterfaceController.swift in Sources */,
 				B599E6061C8120AC0068BA11 /* ComplicationController.swift in Sources */,
+				B599E61A1C812B880068BA11 /* WorldLine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
