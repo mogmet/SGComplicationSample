@@ -38,7 +38,7 @@ struct WorldLine {
         Ending(
             time: NSDate(timeIntervalSinceNow: -60*60*5),
             title: "因果律のメルト",
-            thumbnailURL: "http://fllayg.sakura.ne.jp/11/st265.jpg"
+            thumbnailURL: "https://pbs.twimg.com/profile_images/378800000304417927/3cb12faa051f4e104c063047d4c903a6_400x400.jpeg"
         ),
         Ending(
             time: NSDate(timeIntervalSinceNow: -60*60*6),
