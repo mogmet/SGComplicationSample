@@ -23,13 +23,7 @@ class InterfaceController: WKInterfaceController {
         self.dateFormatter.locale = NSLocale(localeIdentifier: "ja")
         self.dateFormatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
     }
-
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-        self.reloadView()
-    }
-
+    
     /**
     Complicationから来た日付から表示を変える
     
