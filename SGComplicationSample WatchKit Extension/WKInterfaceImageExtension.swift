@@ -12,11 +12,12 @@ public extension WKInterfaceImage {
     
     public func setImageWithUrl(url:String, scale: CGFloat = 1.0) -> WKInterfaceImage? {
         NSURLSession.sharedSession().dataTaskWithURL(NSURL(string: url)!) { data, response, error in
-            if (data != nil && error == nil) {
-                let image = UIImage(data: data!, scale: scale)
-                dispatch_async(dispatch_get_main_queue()) {
-                    self.setImage(image)
-                }
+            if (data == nil || error != nil) {
+                return
+            }
+            let image = UIImage(data: data!, scale: scale)
+            dispatch_async(dispatch_get_main_queue()) {
+                self.setImage(image)
             }
         }.resume()
         return self
